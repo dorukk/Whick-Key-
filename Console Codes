@@ -1,0 +1,10 @@
+-------------> Which Key?
+            bas:
+
+            Console.WriteLine("Enter a key !");
+
+            ConsoleKeyInfo key = Console.ReadKey();
+
+            Console.WriteLine("\t" + key.Key + " this key!");
+
+            goto bas;
